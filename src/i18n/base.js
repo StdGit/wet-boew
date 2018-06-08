@@ -107,7 +107,7 @@ wb.i18nDict = {
 	"frm-nosubmit": "@frm-nosubmit@",
 	"errs-fnd": "@errs-fnd@",
 	"err-fnd": "@err-fnd@",
-	"correct": "@correct@",
+	"err-correct": "@err-correct@",
 
 	/* Date picker */
 	"date-hide": "@date-hide@",

@@ -61,7 +61,7 @@ var componentName = "wb-frmvld",
 					errorFound: i18n( "err-fnd" ),
 					errorsFound: i18n( "errs-fnd" ),
 					formNotSubmitted: i18n( "frm-nosubmit" ),
-					correct: i18n( "correct" )
+					errorCorrect: i18n( "err-correct" )
 				};
 			}
 
@@ -238,7 +238,7 @@ var componentName = "wb-frmvld",
 
 									//Verify if it is a wb-server-error
 									if ( $errors[ i ].classList.contains( "wb-server-error" ) ) {
-										summary += "<li><a href='#" + $error.data( "element-id" ) + "'>" + prefix + ( $fieldName.length !== 0 ? $fieldName.html() + separator : "" ) + $error.text() + separator + i18nText.correct + "</a></li>";
+										summary += "<li><a href='#" + $error.data( "element-id" ) + "'>" + prefix + ( $fieldName.length !== 0 ? $fieldName.html() + separator : "" ) + $error.text() + separator + i18nText.errorCorrect + "</a></li>";
 										$error.html( "<strong>" + prefix + $error.text() + "</strong>" );
 									} else {
 										summary += "<li><a href='#" + $error.data( "element-id" ) + "'>" + prefix + ( $fieldName.length !== 0 ? $fieldName.html() + separator : "" ) + $error.text() + "</a></li>";
