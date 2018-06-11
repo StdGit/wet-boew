@@ -39,6 +39,3 @@ site/data/i18n/
 wet-boew-cdn/
 wet-boew-theme-cdn/
 wet-boew-dist/
-src/i18n/base.js
-src/i18n/i18n.csv
-src/plugins/formvalid/formvalid.js
